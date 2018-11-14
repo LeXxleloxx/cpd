@@ -1,0 +1,4 @@
+
+with open('new2018_data.bin', 'rb') as f:
+    num_lines = sum(1 for line in f)
+    print(num_lines)
